@@ -1,0 +1,30 @@
+/* .general_button {
+  position: absolute;
+  right: 2.3rem;
+  margin-top: 20px;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+} */
+.buttons_container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.general_button {
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,96 @@
+.modal-cart {
+  background: linear-gradient(90deg, var(--color1), var(--color2));
+  color: #fff;
+}
+
+.modal_title {
+  display: flex;
+  height: 50px;
+}
+
+.modal_title .img_logo {
+  position: absolute;
+  /* left: 220px; */
+  width: 150px;
+}
+.cart {
+  width: 100%;
+  margin: 10px;
+}
+
+.titleCart {
+  margin: 15px;
+  padding-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title h4 {
+  font-size: 15px;
+}
+
+.hr {
+  margin: 0px;
+  border: 3px solid black;
+  /*   background-color: blueviolet; */
+}
+
+.ul-cart {
+  /*   background-color: blueviolet; */
+  border: none;
+}
+
+.liCart {
+  justify-content: space-around;
+}
+/*  .product-cart {
+  position: relative;
+} */
+
+.product-cart {
+  color: #fff;
+}
+
+.ea-price {
+  position: relative;
+  left: 1.4rem;
+}
+.quantity-cart {
+  position: relative;
+  left: 3.7rem;
+}
+
+/* .subtotal-cart {
+  position: relative;
+  left: 100px;
+} */
+
+.buttons-cart {
+  position: relative;
+  left: 2.2rem;
+}
+.buttons-cart button {
+  margin-left: 5px;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+}
+
+.total li {
+  color: #fff;
+  font-weight: 700;
+  margin-right: 3rem;
+}
+.forpadding {
+  padding: 20px 200px;
+}
+
+/***************************************************************/
+@media (350px<= width <1004px) {
+}

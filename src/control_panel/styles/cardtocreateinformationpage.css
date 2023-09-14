@@ -1,0 +1,80 @@
+.textarea_container {
+  display: flex;
+  gap: 20px;
+}
+
+.textarea_container .textarea_info {
+  width: 100%;
+  height: 8rem;
+}
+
+.buttons_info_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons_pack {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.button_add_info {
+  background-color: rgb(95, 218, 47);
+}
+
+.button_update_info {
+  background-color: rgb(42, 151, 229);
+}
+.button_delete_info {
+  background-color: rgb(229, 52, 42);
+}
+
+.select_info {
+  margin: 2rem;
+}
+
+.if_exist_items {
+  display: flex;
+}
+
+.if_exist_items_ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.inpuBox_login2 {
+  display: flex;
+  gap: 10px;
+}
+
+.inpuBox_info {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.inpuBox_info input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #000000;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
